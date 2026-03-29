@@ -36,7 +36,7 @@ Every example in this cookbook:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Soroban-Cookbook/Soroban-Cookbook.git
+git clone https://github.com/Soroban-Cookbook/Soroban-Cookbook-.git
 cd Soroban-Cookbook
 
 # Run a basic example
@@ -202,7 +202,7 @@ cargo build --workspace --target wasm32-unknown-unknown --release
 - [Stellar Developer Portal](https://developers.stellar.org)
 - [Soroban Rust SDK](https://github.com/stellar/rs-soroban-sdk)
 - [Stellar Community Discord](https://discord.gg/stellardev)
-- [Stellar Stack Exchange](https://stellar.stackexchange.com/)
+- [Project Roadmap](./ROADMAP.md) - Planned phases, milestones, and KPIs
 
 ## License
 
