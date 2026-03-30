@@ -19,15 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
-          mdbook-version: 'latest'
-      
+          mdbook-version: "latest"
+
       - name: Build book
         run: mdbook build
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
